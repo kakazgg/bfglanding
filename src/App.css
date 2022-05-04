@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'bfgmain';
+    src: url('/Users/joshuabaker/bfg-landing/open-react-template/src/assets/fonts/HypotheticalmoonofMercury.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'titlescore';
+    src: url('/Users/joshuabaker/bfg-landing/open-react-template/src/assets/fonts/RoughRider.ttf') format('truetype');
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+  .text-color-primary {
+    font-family: 'Koulen';
+}
+
+a {
+    font-family: 'Koulen';
+}
+
+h1 {
+    font-family: 'Koulen' !important;
+}
+
+h2 {
+    font-family: 'Koulen' !important;
+}
+
+h3 {
+    font-family: 'Koulen' !important;
+}
+
+h4 {
+    font-family: 'Koulen' !important;
+}
+
+p {
+    font-family: 'Koulen' !important;
+}
+
+span {
+    font-family: 'Koulen' !important;
+}
