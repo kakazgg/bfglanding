@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                 <span className="specialelite features-split-special">The </span><span className="text-color-primary permanentmarker features-split-marker">Bookies.</span>
                   </h3>
                 <p className="m-0">
-                  The giants are ready to risk it all. Come join the giants on their journey from rags to riches!<br></br>are you a gaming fan? A sports fan? or even just a Solana lover. Whether you are passionate about one or all three, come join the giants and their fortune at the B.F.G's bookies.
+                  The giants are ready to risk it all. Come join the giants on their journey from rags to riches! Are you a gaming fan? A sports fan? Or maybe even just a Solana lover. Whether you are passionate about one or all three, come join the giants and their fortune at the B.F.G's bookies.
                   </p>
               </div>
               <div className={
