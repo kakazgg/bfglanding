@@ -64,7 +64,7 @@ const FeaturesSplit = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
-            <div className="split-item">
+            <div className="split-item section-inner has-top-divider">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs fw-600 tt-u mb-8 text-color-primary">
                   Risk takers and cash makers

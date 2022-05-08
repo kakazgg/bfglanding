@@ -130,7 +130,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Yo, I'm Arneis. I got my name from looking up italian wine because I thought it would sound fancy. I have experience as a marketing manager and managing collabs in numerous successful NFT projeccts. I am an American who has traveled and lived all over the world, including Japan.
+                    — Yo, I'm Arneis. I got my name from looking up italian wine because I thought it would sound fancy. I have experience as a marketing manager and managing collabs in numerous successful NFT projects. I am an American who has traveled and lived all over the world, including Japan.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
