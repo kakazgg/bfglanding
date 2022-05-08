@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -85,7 +84,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          
           {!hideNav &&
             <>
               <button
@@ -112,7 +111,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>White Paper</Link>
+                      <Link to="#0" onClick={closeMenu}>Lite Paper</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +119,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Discord</Link>
+                        <a className="button button-primary button-wide-mobile button-sm" href="https://discord.gg/FSghgRw2dq" target="_blank" rel="noopener noreferrer">Discord</a>
                       </li>
                     </ul>}
                 </div>

@@ -44,8 +44,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'The Roadmap.',
-    paragraph: 'We are a Solana project that aims to give back to the community by creating the utility of dreams.'
+    title: 'Roadmap.',
+    title2: 'The ',
+    paragraph: ''
   };
 
   return (

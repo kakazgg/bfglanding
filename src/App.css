@@ -9,10 +9,9 @@
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
-  .text-color-primary {
-    font-family: 'Koulen';
-}
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Reenie+Beanie&display=swap');
 
 a {
     font-family: 'Koulen';
@@ -23,21 +22,69 @@ h1 {
 }
 
 h2 {
-    font-family: 'Koulen' !important;
+    font-family: 'Reenie Beanie' !important;
 }
 
 h3 {
-    font-family: 'Koulen' !important;
+    font-family: 'Reenie Beanie' !important;
 }
 
 h4 {
-    font-family: 'Koulen' !important;
+    font-family: 'Bubblegum Sans' !important;
 }
 
 p {
-    font-family: 'Koulen' !important;
+    font-family: 'Bubblegum Sans' !important;
 }
 
 span {
-    font-family: 'Koulen' !important;
+    font-family: 'Oswald' !important;
+}
+
+.text-xxs {
+    font-family: 'Koulen'!important;
+
+}
+
+.specialelite {
+    font-family: "Special Elite"!important;
+}
+
+.permanentmarker {
+    font-family: "Permanent Marker"!important;
+}
+
+.titlebfg {
+    font-size: 2.3em;
+}
+
+.bfgtitlecontainer {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.hero-content {
+    padding-bottom: 110px;
+}
+
+.headingbfg {
+    font-family: "Permanent Marker"!important;
+	color: #BBCD81!important;
+}
+
+.features-split-marker {
+    font-size: 1.8em;
+}
+
+.section-header-title-two {
+    color: #ECEDED;
+    font-family: "Special Elite"!important;
+    font-size: 0.8em;
+
+}
+
+.section-header-title-one {
+    color: #BBCD81;
+    font-family: "Permanent Marker"!important;
+    font-size: 1.8em;
 }

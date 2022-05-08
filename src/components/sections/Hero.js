@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
 const propTypes = {
@@ -26,11 +25,6 @@ const Hero = ({
 }) => {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
 
   const closeModal = (e) => {
     e.preventDefault();
@@ -60,39 +54,23 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+            <div className="bfgtitlecontainer">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              The <span className="text-color-primary">BFG's</span>
+            <span className="specialelite">The </span><span className="text-color-primary permanentmarker titlebfg">B.F.G's</span>
             </h1>
+            </div>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              We are a Solana project that aims to give back to the community by creating the utility of dreams.
+              FEE FI FO FUM! The big fucking giants have stomped over to the Solana blockchain with a brand new bookies and the utility of dreams.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="dark" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="primary" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="primary" wideMobile href="https://discord.gg/FSghgRw2dq" target="_blank" rel="noopener noreferrer">
                     Join the Discord
                     </Button>
                 </ButtonGroup>
               </div>
             </div>
-          </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
           </div>
           <Modal
             id="video-modal"
