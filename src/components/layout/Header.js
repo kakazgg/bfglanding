@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -111,7 +110,8 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Lite Paper</Link>
+                      <a href="https://medium.com/@the_BFGs/the-big-fucking-giants-df73b030fb48" target="_blank" rel="noopener noreferrer">Litepaper</a>
+                    
                     </li>
                   </ul>
                   {!hideSignin &&
